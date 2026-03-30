@@ -1,0 +1,3 @@
+C:/Users/gaura/OneDrive/Documents/My-DevOps-Projects/wind-turbine-sensor-processor/build/CMakeFiles/sensor_simulator.dir
+C:/Users/gaura/OneDrive/Documents/My-DevOps-Projects/wind-turbine-sensor-processor/build/CMakeFiles/edit_cache.dir
+C:/Users/gaura/OneDrive/Documents/My-DevOps-Projects/wind-turbine-sensor-processor/build/CMakeFiles/rebuild_cache.dir

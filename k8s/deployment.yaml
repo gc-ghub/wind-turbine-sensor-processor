@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: turbine-sensor
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: turbine-sensor
+  template:
+    metadata:
+      labels:
+        app: turbine-sensor
+    spec:
+      containers:
+        - name: sensor
+          image: dockergc00/wind-turbine-sensor:latest
+          imagePullPolicy: Always
+          envFrom:
+            - configMapRef:
+                name: sensor-config
